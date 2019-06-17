@@ -1,0 +1,40 @@
+{{ define "main" }}
+<main aria-role="main">
+  <div>
+    <h1>{{ .Site.Title }}</h1>
+
+    {{- with .Site.Params.homeSubtitle }}
+    <p>{{.}}</p>
+    {{- end }}
+
+    <img src="/img/zach.jpg" style="width:50%;"/>
+
+    <p>
+      <strong>Work</strong>
+      <br />
+      Co-creator of <a href="https://github.com/facebook/osquery">Facebook osquery</a> and <a href="https://github.com/kolide/fleet">Kolide Fleet</a>.<br />
+      Available for consulting services through <a href="https://dactiv.llc">Dactiv LLC</a>.
+      <br/>
+    {{- with .Site.Params.work_social }}
+      <div>
+        {{ partial "social-icons.html" . }}
+      </div>
+    {{- end }}
+    </p>
+
+    <p>
+      <strong>Play</strong>
+      <br />
+      Rock climbing, skiing, and hot springs. <br />
+      Lover of live music, big <a href="http://phish.net/user/zachwass2000/shows">Phish fan</a>. <br />
+      Maker of blinky things.
+      <br/>
+    {{- with .Site.Params.play_social }}
+      <div>
+        {{ partial "social-icons.html" . }}
+      </div>
+    {{- end }}
+    </p>
+  </div>
+</main>
+{{ end }}
