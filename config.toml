@@ -1,0 +1,27 @@
+baseURL = "https://z.ach.fun/"
+languageCode = "en-us"
+title = "Zach Wasserman"
+
+[params]
+  author = "foobar"
+  defaultTheme = "light"
+
+  [[params.work_social]]
+    url = "https://github.com/zwass"
+    name = "github"
+  [[params.work_social]]
+    url = "mailto:zach@dactiv.llc"
+    name = "email"
+  [[params.work_social]]
+    url = "https://www.linkedin.com/in/zacharywasserman/"
+    name = "linkedin"
+
+  [[params.play_social]]
+    url = "https://github.com/zwass"
+    name = "facebook"
+  [[params.play_social]]
+    url = "mailto:z@ach.fun"
+    name = "email"
+  [[params.play_social]]
+    url = "https://www.linkedin.com/in/zacharywasserman/"
+    name = "instagram"
