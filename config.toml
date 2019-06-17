@@ -1,6 +1,7 @@
 baseURL = "https://z.ach.fun/"
 languageCode = "en-us"
 title = "Zach Wasserman"
+theme = "hello-friend-ng"
 
 [params]
   author = "foobar"
