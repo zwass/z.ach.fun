@@ -18,7 +18,7 @@ theme = "hello-friend-ng"
     name = "linkedin"
 
   [[params.play_social]]
-    url = "https://github.com/zwass"
+    url = "https://facebook.com/zwass"
     name = "facebook"
   [[params.play_social]]
     url = "mailto:z@ach.fun"
