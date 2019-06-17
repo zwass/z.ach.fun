@@ -24,5 +24,5 @@ theme = "hello-friend-ng"
     url = "mailto:z@ach.fun"
     name = "email"
   [[params.play_social]]
-    url = "https://www.linkedin.com/in/zacharywasserman/"
+    url = "https://instagram.com/thezachw/"
     name = "instagram"
