@@ -1,4 +1,4 @@
-html {
+tml {
   box-sizing: border-box;
   line-height: 1.6;
   letter-spacing: .06em;
@@ -232,6 +232,7 @@ ol ol {
   flex: 1 auto;
   align-items: center;
   justify-content: center;
+  margin: 0 10px;
   /* margin: 50px 0; */
 
   @media #{$media-size-phone} {
