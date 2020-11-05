@@ -11,11 +11,14 @@ theme = "hello-friend-ng"
     url = "https://github.com/zwass"
     name = "github"
   [[params.work_social]]
-    url = "mailto:zach@dactiv.llc"
+    url = "mailto:zach@fleetdm.com"
     name = "email"
   [[params.work_social]]
     url = "https://www.linkedin.com/in/zacharywasserman/"
     name = "linkedin"
+  [[params.work_social]]
+    url = "https://twitter.com/thezachw"
+    name = "twitter"
 
   [[params.play_social]]
     url = "https://facebook.com/zwass"
