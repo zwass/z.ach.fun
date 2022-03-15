@@ -4,6 +4,5 @@
   publish = "public"
 
 [[redirects]]
-from = "/*"
-to = "https://calendly.com/zwass//:splat"
-status = 200
+  from = "/*"
+  to = "https://calendly.com/zwass//:splat"
