@@ -2,3 +2,8 @@
   environment = { HUGO_VERSION = "0.55.6" }
   command = "hugo"
   publish = "public"
+
+[[redirects]]
+from = "/*"
+to = "https://calendly.com/zwass//:splat"
+status = 200
