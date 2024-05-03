@@ -8,5 +8,9 @@
   to = "https://fleet-launch-party-at-rsac.eventbrite.com/?aff=bsides"
 
 [[redirects]]
+  from = "/fleet"
+  to = "https://fleet-1qt7.onrender.com"
+
+[[redirects]]
   from = "/*"
   to = "https://calendly.com/zwass/:splat"
