@@ -4,5 +4,9 @@
   publish = "public"
 
 [[redirects]]
+  from = "/rsaparty"
+  to = "https://fleet-launch-party-at-rsac.eventbrite.com/?aff=bsides"
+
+[[redirects]]
   from = "/*"
   to = "https://calendly.com/zwass/:splat"
